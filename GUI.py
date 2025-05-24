@@ -1,10 +1,14 @@
 import customtkinter as ctk
 from main import organize_files
 
-app = ctk.CTk()
-app.geometry("400x300")
+ctk.set_default_color_theme("green")
+ctk.set_appearance_mode("dark")
+# CustomTkinter GUI for File Organizer
+# This GUI allows the user to input a directory path and organize files in that directory based on their extensions.
+app = ctk.CTk("#38301b")
+app.geometry("400x200")
 app.title("File Organizer")
-app.resizable(False, False)
+app.resizable(True, False)
 app.grid_rowconfigure((0, 2), weight=1)
 app.grid_columnconfigure(0, weight=1)
 
