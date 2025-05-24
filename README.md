@@ -1,2 +1,3 @@
-File organizer with a that GUI allows the user to input a directory path and organize files in that directory based on their extensions, into sub-folders with appropriate titles.
-file_extensions.py contains a dictionary with a multitude of extensions as keys and the sub-folder as the values.
+File organizer app with a GUI that allows the user to input a directory path and organize files in that directory based on their extensions, into sub-folders with appropriate titles.
+'file_extensions.py' contains a dictionary with a multitude of extensions as keys and the sub-folder as the values.
+Shell script allows me to run app on personal computer from desktop, will not work for other devices/directories.
